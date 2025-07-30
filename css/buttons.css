@@ -1,0 +1,126 @@
+/*PINTEREST*/
+.btn.p::after,
+.btn.p::before{
+    content: "Pinterest";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background-color: #FF9691;
+    line-height: 2.2;
+    transition: all 400ms;
+    top: 0;
+    text-shadow: 0px 10px 10px #d47d7d71;
+}
+.btn.p:hover::after{
+    top: -45px;
+}
+.btn.p::before{
+  content: "Você está aqui";
+  color:#fffdfd;
+  top: 36px;
+  background-image: url(https://i.pinimg.com/1200x/fe/76/29/fe7629aa2eacacf4c2459e26dd5446aa.jpg);
+  background-size: 189px;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+.btn.p:hover::before{
+    top: 0px;
+}
+
+/*INSTAGRAM*/
+.btn.i::after,
+.btn.i::before{
+    content: "Instagram";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 2.2;
+    transition: all 400ms;
+    top: 0;
+}
+.btn.i:hover::after{
+    top: -36px;
+}
+.btn.i::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.i:hover::before {
+  left: 0;
+}
+.btn.i:hover {
+  color: white;
+}
+
+/*LOGO*/
+.btn.l::after,
+.btn.l::before{
+    content: "Logos";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 2.2;
+    transition: all 400ms;
+    top: 0;
+}
+.btn.l:hover::after{
+    top: -36px;
+}
+.btn.l::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.l:hover::before {
+  left: 0;
+}
+.btn.l:hover {
+  color: white;
+}
+
+/*COMISSÃO*/
+.btn.c::after,
+.btn.c::before{
+    content: "Comissões ";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 2.2;
+    transition: all 400ms;
+    top: 0;
+}
+.btn.c:hover::after{
+    top: -36px;
+}
+.btn.c::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.c:hover::before {
+  left: 0;
+}
+.btn.c:hover {
+  color: white;
+}
+
