@@ -118,11 +118,10 @@ a{
 
 .post{
     display: flex;
-    justify-items: center;
     background-color:#8E4848;
     width: 650px;
     height: 480px;
-    margin: 20px 105px 25px;
+    margin: 20px 65px 25px;
     border-radius: 20px;
 }
 
