@@ -117,17 +117,24 @@ a{
 }
 
 .post{
-    display: flex;
+    float: left;
+    width: 659px;
+    padding: 10px;
     background-color:#8E4848;
-    width: 650px;
-    height: 480px;
-    margin: 20px 65px 25px;
+    margin: 0px 85px 0px;
     border-radius: 20px;
 }
 
+.post .pin{
+    float: left;
+    width: 32%;
+    padding: 0px 0px 0px 28px;
+    margin: 0px 74px 10px 0px;
+}
+
 img{
-    margin: 30px 24px;
-    box-shadow: 0px 0px 10px 10px #2002025c;
+    margin: 10px 2px;
+    box-shadow: 0px 0px 5px 10px #2002025c;
     display: block;
     position:static;
 }
@@ -142,11 +149,17 @@ img{
     padding-left: 20px;
     margin-bottom: 10px;
     margin-left: 30px;
-    margin-top: -12px;
     margin-right: 272px;
     background-color: rgb(203, 158, 158);
     border-radius: 3px;
     box-shadow: 0px 0px 15px 5px #2002025c;
+}
+
+.post .pin:target{
+       width: 27%;
+       height: 580px;
+       padding-left: 40px;
+       padding-top: 20px;
 }
 
 .post .pin:target .f{   
@@ -159,7 +172,7 @@ img{
     left: 50%;
     margin: 10px;
     background-color: #8E4848;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0px 0px 5px 05px #2002025c;
 }
 
