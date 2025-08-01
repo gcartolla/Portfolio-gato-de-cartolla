@@ -213,11 +213,8 @@ border-radius: 30px;
 
 .sidebar_left{
     position: fixed;
-    top: 186px;
-    left: 120px;
-    bottom: 130px;
-    padding: 12px ;
-    width: 300px;
+    top: 160px;
+    left: 0px;
     height: 360px;
 }
 
