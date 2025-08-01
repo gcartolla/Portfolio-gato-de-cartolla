@@ -232,26 +232,26 @@ border-radius: 30px;
 }
 
 .container{
-    top: 10px;
-    left: 550px;
+    top: 200px;
+    left: 70px;
     bottom: 130px;
     padding: 12px ;
-    max-width: 850px;
-    min-width: 320px;
+    width: 500px;
     height: 667px;
     overflow: auto;
        box-shadow: -5px -5px 30px 5px  #d47d7d71 
 }
 
 .container_title{
-    width: 874px;
+    width: 524px;
     height: 60px;
-    left: 550px;
-    top: 10px;
+    left: 70px;
+    top: 159px;
 }
 
 .container_title h1{
     margin-top: 10px;
+    text-align: center;
 }
 
 .scroll{
@@ -260,20 +260,21 @@ border-radius: 30px;
 
 .post{
     float: left;
-    width: 659px;
-    padding: 10px;
-    margin: 0px 85px 0px;
+    width: 450px;
+    padding: 0px;
+    margin: 0px 15px 0px;
 }
 
 .post .pin{
     float: left;
-    width: 32%;
-    padding: 0px 0px 0px 28px;
-    margin: 0px 74px 10px 0px;
+    width: 18%;
+    padding: 7px 30px 0px 4px;
+    margin: 0px 94px 10px 0px;
 }
 
 img{
-    margin: 10px 2px;
+    width: 200px;
+    margin: 10px 20px;
     box-shadow: 0px 0px 5px 10px #2002025c;
 }
 
