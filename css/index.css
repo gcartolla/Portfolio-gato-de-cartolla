@@ -156,10 +156,10 @@ img{
 }
 
 .post .pin:target{
-       width: 27%;
-       height: 580px;
-       padding-left: 40px;
-       padding-top: 20px;
+    width: 27%;
+    height: 580px;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 .post .pin:target .f{   

@@ -155,7 +155,7 @@
         padding-left: 6px;
         margin-bottom: 10px;
         margin-left: 10px;
-        font-size: 125px;
+        font-size: 19px;
         color: #8E4848;
         text-decoration: none;
         margin-right: 272px;
@@ -165,12 +165,12 @@
     }
 
     .post .pin:target{
-        width: 217px;
-        height: 390px;
+        width: 257px;
+        height: 490px;
         padding-left: 1px;
         padding-top: 10px;
-        top: 200px;
-        left: 78px;
+        top: 20px;
+        left: 28px;
     }
 
     .post .pin:target .f{   
@@ -180,7 +180,7 @@
     .pin:target{
         margin: 10px;
         position: fixed;
-        top: 59px;
+        top: 0px;
         left: 50%;
         background-color: #8E4848;
         border-radius: 5px;
@@ -188,7 +188,7 @@
     }
 
     .post .pin:target a img{
-        width: 230px;
+        width: 100%;
     }
 
     ::-webkit-scrollbar{
