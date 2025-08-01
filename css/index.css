@@ -235,8 +235,8 @@ border-radius: 30px;
     top: 200px;
     left: 70px;
     bottom: 130px;
-    padding: 12px ;
-    width: 1opx;
+    padding: 2px ;
+    width: 10px;
     height: 667px;
     overflow: auto;
        box-shadow: -5px -5px 30px 5px  #d47d7d71 
@@ -256,7 +256,7 @@ border-radius: 30px;
 }
 
 .scroll{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .post{
