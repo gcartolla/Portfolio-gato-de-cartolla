@@ -1,0 +1,204 @@
+@media screen and  (max-width: 780px){
+
+    body{
+        background-color: #ffaedf;
+    }
+
+    .logo{
+        background-image: url(/img/logo.png);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        margin-top: 17px;
+        margin-left: 20px;
+        max-width: 100px;
+        min-width: 30px;
+        height: 100px;
+        border-radius: 60px;
+        box-shadow: 0px 04px 04px #d47d7d71;
+    }
+
+    .title1{
+        color: #ffffff;
+        text-align: right;
+        position: fixed;
+        top: 50px;
+        left: -250px;
+        font-size: 17px;
+        width: 534px;
+        height: 100px;
+        text-shadow: 0px 10px 10px #d47d7d71;
+    }
+
+    .title2{
+        left: -230px;
+        top: 94px;
+        font-size: 17px;
+        color: #ffffff;
+        text-align: right;
+        position: fixed;
+        width: 534px;
+        height: 100px;
+        text-shadow: 0px 10px 10px #d47d7d71;
+    }
+
+    .sidebar_left{
+        background-color: #FDDADA;
+        position: fixed;
+        top: 160px;
+        left: 0px;
+        height: 360px;
+        width: 30px;
+        border-radius: 8px;
+        bottom: 130px;
+        padding: 12px ;
+        box-shadow: 0px 04px 04px #d47d7d71;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .sidebar nav ul li {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .btn {
+        width: 45px;
+        height: 42px;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+        background: transparent;
+        font-weight: 600;
+        margin-left: -70px;
+        display: inline-block;
+        text-decoration: none;
+        box-shadow: 0px 04px 04px #d47d7d71;
+    }
+
+    a{
+        color: #8E4848;
+        font-size: 20px;
+    }
+
+    .container{
+        top: 200px;
+        left: 70px;
+        bottom: 130px;
+        padding:0px;
+        width: 273px;
+        height: 477px;
+        background-color: #FDDADA;
+        border-radius: 8px;
+        position: fixed;
+        overflow: auto;
+        box-shadow: -5px -5px 30px 5px  #d47d7d71 
+    }
+
+    .container_title{
+        width: 273px;
+        height: 60px;
+        left: 70px;
+        top: 159px;
+        font-size:12px;
+        border-radius:  8px 8px 0 0 ;
+        position: fixed;
+        background-color: #FDDADA;
+        color: #ffff;
+        text-align: center;
+    }
+
+    .container_title h1{
+        margin-top: 03px;
+        text-align: center;
+        text-shadow: 0px 10px 10px #d47d7d71;
+    }
+
+    .scroll{
+         margin-top: 20px;
+    }
+
+    .post{
+        width: 253px;
+        height: 780px;
+        padding: 0px;
+        margin-left: 10px;
+        float: left;
+        background-color:#8E4848;
+        border-radius: 20px;
+    }
+
+    .post .pin{
+        float: left;
+        width:32%;
+        padding: 3px;
+        margin-left: 17px;
+    }
+
+    img{
+        width: 100px;
+        margin-left: 6px;
+        box-shadow: 0px 0px 6px 5px #2002025c;
+        display: block;
+        position:static;
+    }
+
+    .f{
+        display: none;
+    }
+
+    .f a{
+        width: 60px;
+        padding-left: 6px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 125px;
+        color: #8E4848;
+        text-decoration: none;
+        margin-right: 272px;
+        background-color: rgb(203, 158, 158);
+        border-radius: 3px;
+        box-shadow: 0px 0px 15px 5px #2002025c;
+    }
+
+    .post .pin:target{
+        width: 217px;
+        height: 390px;
+        padding-left: 1px;
+        padding-top: 10px;
+        top: 200px;
+        left: 78px;
+    }
+
+    .post .pin:target .f{   
+        display: block;
+    }
+
+    .pin:target{
+        margin: 10px;
+        position: fixed;
+        top: 59px;
+        left: 50%;
+        background-color: #8E4848;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 05px #2002025c;
+    }
+
+    .post .pin:target a img{
+        width: 230px;
+    }
+
+    ::-webkit-scrollbar{
+        width: 09px;
+    }
+    .scroll::-webkit-scrollbar-track{
+        padding: 30px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: rgb(241, 171, 225);
+        border-radius: 30px;
+    }
+
+}
