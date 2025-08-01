@@ -191,7 +191,7 @@ background-color: rgb(241, 171, 225);
 border-radius: 30px;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 320px){
 
 .logo{
 
