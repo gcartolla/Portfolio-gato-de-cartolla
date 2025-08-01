@@ -22,7 +22,7 @@
         text-align: right;
         position: fixed;
         top: 0px;
-        left: -287px;
+        left: -280px;
         font-size: 17px;
         width: 534px;
         height: 100px;
@@ -30,9 +30,9 @@
     }
 
     .title2{
-        left: -176px;
+        left: -199px;
         top: 29px;
-        font-size: 17px;
+        font-size: 15px;
         color: #ffffff;
         text-align: right;
         position: fixed;
@@ -101,7 +101,7 @@
         bottom: 130px;
         padding:0px;
         width: 273px;
-        height: 477px;
+        height: 497px;
         background-color: #FDDADA;
         border-radius: 8px;
         position: fixed;
@@ -148,14 +148,14 @@
         display: none;
     }
     .f a{
-        width: 60px;
+        width: 62px;
         padding-left: 6px;
-        bottom: -2000px;
+        margin-top: 10px;
         margin-left: 10px;
+        margin-right: 272px;
         font-size: 19px;
         color: #8E4848;
         text-decoration: none;
-        margin-right: 272px;
         background-color: rgb(203, 158, 158);
         border-radius: 3px;
         box-shadow: 0px 0px 15px 5px #2002025c;
