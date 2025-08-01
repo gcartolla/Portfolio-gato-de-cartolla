@@ -236,21 +236,22 @@ border-radius: 30px;
     left: 70px;
     bottom: 130px;
     padding: 12px ;
-    width: 500px;
+    width: 1opx;
     height: 667px;
     overflow: auto;
        box-shadow: -5px -5px 30px 5px  #d47d7d71 
 }
 
 .container_title{
-    width: 524px;
+    width: 273px;
     height: 60px;
     left: 70px;
     top: 159px;
+    font-size:12px;
 }
 
 .container_title h1{
-    margin-top: 10px;
+    margin-top: 03px;
     text-align: center;
 }
 
