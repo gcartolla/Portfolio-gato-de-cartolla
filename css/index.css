@@ -235,8 +235,8 @@ border-radius: 30px;
     top: 200px;
     left: 70px;
     bottom: 130px;
-    padding: 0px ;
-    width: 10px;
+    padding:0px;
+    width: 3px;
     height: 427px;
     overflow: auto;
        box-shadow: -5px -5px 30px 5px  #d47d7d71 
@@ -279,57 +279,29 @@ img{
     box-shadow: 0px 0px 6px 5px #2002025c;
 }
 
-
 .f a{
-    color: #8E4848;
-    text-decoration: none;
-    padding-left: 20px;
+    width: 60px;
+    padding-left: 6px;
     margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 272px;
-    background-color: rgb(203, 158, 158);
-    border-radius: 3px;
-    box-shadow: 0px 0px 15px 5px #2002025c;
+    margin-left: 10px;
 }
 
 .post .pin:target{
-       width: 27%;
-       height: 580px;
-       padding-left: 40px;
-       padding-top: 20px;
-}
-
-.post .pin:target .f{   
-    display: block;
+       width: 217px;
+       height: 390px;
+       padding-left: 1px;
+       padding-top: 10px;
+       top: 200px;
+       left: 78px;
 }
 
 .pin:target{
-    position: fixed;
-    top: 59px;
-    left: 50%;
-    margin: 10px;
-    background-color: #8E4848;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 05px #2002025c;
+    margin: 10px
 }
 
 .post .pin:target a img{
-    width: 350px;
+    width: 230px;
 }
-
-::-webkit-scrollbar{
-    width: 09px;
-}
-
-.scroll::-webkit-scrollbar-track{
-padding: 30px;
-}
-
-::-webkit-scrollbar-thumb{
-background-color: rgb(241, 171, 225);
-border-radius: 30px;
-}
-
 }
 
 
