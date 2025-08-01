@@ -1,23 +1,22 @@
-body{
+@media screen and (max-width:1800px){
+    body{
     background-color: #ffaedf;
-   /* background-image: url(/fundo5.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;*/
-}
+    }
 
-.logo{
+    .logo{
     border-radius: 60px;
     height: 100px;
-    width: 100px;
     margin-top: 17px;
     margin-left: 120px;
     background-image: url(/img/logo.png);
     background-size: 100px;
     box-shadow: 0px 04px 04px #d47d7d71;
     background-repeat: no-repeat;
-}
+    max-width: 100px;
+    min-width: 30px;
+    }
 
-.title1{
+    .title1{
     color: #ffffff;
     text-align: right;
     position: fixed;
@@ -27,9 +26,9 @@ body{
     height: 100px;
     font-size: 25px;
     text-shadow: 0px 10px 10px #d47d7d71;
-}
+    }
 
-.title2{
+    .title2{
     color: #ffffff;
     text-align: right;
     position: fixed;
@@ -39,9 +38,9 @@ body{
     height: 100px;
     font-size: 25px;
     text-shadow: 0px 10px 10px #d47d7d71;
-}
+    }
 
-.sidebar_left{
+    .sidebar_left{
     background-color: #FDDADA;
     border-radius: 8px;
     position: fixed;
@@ -49,20 +48,20 @@ body{
     left: 120px;
     bottom: 130px;
     padding: 12px ;
-    width: 300px;
     box-shadow: 0px 04px 04px #d47d7d71;
-}
+    width: 300px;
+    }
 
-li {
+    li {
     list-style-type: none;
-}
+    }
 
-.sidebar nav ul li {
+    .sidebar nav ul li {
     padding-top: 30px;
     padding-left: 20px;
-}
+    }
 
-.btn {
+    .btn {
     display: inline-block;
     text-decoration: none;
     width: 160px;
@@ -73,15 +72,14 @@ li {
     box-shadow: 0px 04px 04px #d47d7d71;
     background: transparent;
     font-weight: 600;
-    /*background-color: #dac8c8;*/
-}
+    }
 
-a{
+    a{
     color: #8E4848;
     font-size: 20px;
-}
+    }
 
-.container{
+    .container{
     background-color: #FDDADA;
     border-radius: 8px;
     position: fixed;
@@ -89,13 +87,14 @@ a{
     left: 550px;
     bottom: 130px;
     padding: 12px ;
-    width: 850px;
+    max-width: 850px;
+    min-width: 320px;
     height: 667px;
     overflow: auto;
-       box-shadow: -5px -5px 30px 5px  #d47d7d71 
-}
+        box-shadow: -5px -5px 30px 5px  #d47d7d71 
+    }
 
-.container_title{
+    .container_title{
     border-radius:  8px 8px 0 0 ;
     position: fixed;
     background-color: #FDDADA;
@@ -105,45 +104,45 @@ a{
     top: 10px;
     color: #ffff;
     text-align: center;
-}
+    }
 
-.container_title h1{
+    .container_title h1{
     margin-top: 10px;
     text-shadow: 0px 10px 10px #d47d7d71;
-}
+    }
 
-.scroll{
+    .scroll{
     margin-top: 50px;
-}
+    }
 
-.post{
+    .post{
     float: left;
     width: 659px;
     padding: 10px;
     background-color:#8E4848;
     margin: 0px 85px 0px;
     border-radius: 20px;
-}
+    }
 
-.post .pin{
+    .post .pin{
     float: left;
     width: 32%;
     padding: 0px 0px 0px 28px;
     margin: 0px 74px 10px 0px;
-}
+    }
 
-img{
+    img{
     margin: 10px 2px;
     box-shadow: 0px 0px 5px 10px #2002025c;
     display: block;
     position:static;
-}
+    }
 
-.f{
+    .f{
     display: none;
-}
+    }
 
-.f a{
+    .f a{
     color: #8E4848;
     text-decoration: none;
     padding-left: 20px;
@@ -153,20 +152,20 @@ img{
     background-color: rgb(203, 158, 158);
     border-radius: 3px;
     box-shadow: 0px 0px 15px 5px #2002025c;
-}
+    }
 
-.post .pin:target{
-       width: 27%;
-       height: 580px;
-       padding-left: 40px;
-       padding-top: 20px;
-}
+    .post .pin:target{
+        width: 27%;
+        height: 580px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
 
-.post .pin:target .f{   
+    .post .pin:target .f{   
     display: block;
-}
+    }
 
-.pin:target{
+    .pin:target{
     position: fixed;
     top: 59px;
     left: 50%;
@@ -174,25 +173,24 @@ img{
     background-color: #8E4848;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 05px #2002025c;
-}
+    }
 
-.post .pin:target a img{
+    .post .pin:target a img{
     width: 350px;
-}
+    }
 
-::-webkit-scrollbar{
+    ::-webkit-scrollbar{
     width: 09px;
+    }
+
+    .scroll::-webkit-scrollbar-track{
+    padding: 30px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+    background-color: rgb(241, 171, 225);
+    border-radius: 30px;
+    }
 }
-
-.scroll::-webkit-scrollbar-track{
-padding: 30px;
-}
-
-::-webkit-scrollbar-thumb{
-background-color: rgb(241, 171, 225);
-border-radius: 30px;
-}
-
-
 
 
