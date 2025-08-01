@@ -132,7 +132,8 @@ a{
     margin: 0px 74px 10px 0px;
 }
 
-img{
+.pin img{
+    width: 280px;
     margin: 10px 2px;
     box-shadow: 0px 0px 5px 10px #2002025c;
     display: block;
@@ -168,7 +169,7 @@ img{
 
 .pin:target{
     position: fixed;
-    top: 59px;
+    top: 5px;
     left: 50%;
     margin: 10px;
     background-color: #8E4848;
