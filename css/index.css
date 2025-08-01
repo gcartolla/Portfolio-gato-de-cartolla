@@ -235,9 +235,9 @@ border-radius: 30px;
     top: 200px;
     left: 70px;
     bottom: 130px;
-    padding: 2px ;
+    padding: 0px ;
     width: 10px;
-    height: 667px;
+    height: 427px;
     overflow: auto;
        box-shadow: -5px -5px 30px 5px  #d47d7d71 
 }
@@ -261,7 +261,7 @@ border-radius: 30px;
 
 .post{
     float: left;
-    width: 450px;
+    width: 253px;
     padding: 0px;
     margin: 0px 15px 0px;
 }
@@ -269,14 +269,14 @@ border-radius: 30px;
 .post .pin{
     float: left;
     width: 18%;
-    padding: 7px 30px 0px 4px;
-    margin: 0px 94px 10px 0px;
+    padding: 0px 30px 0px 16px;
+    margin: 0px 14px 0px 0px;
 }
 
 img{
-    width: 200px;
-    margin: 10px 20px;
-    box-shadow: 0px 0px 5px 10px #2002025c;
+    width: 100px;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 6px 5px #2002025c;
 }
 
 
