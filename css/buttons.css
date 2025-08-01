@@ -124,3 +124,134 @@
   color: white;
 }
 
+@media screen and (min-width: 320px){
+/*PINTEREST*/
+.btn.p::after,
+.btn.p::before{
+    content: ".";
+    background-image: url(https://i.pinimg.com/736x/d6/43/f7/d643f770295e8eeb6d7a52f1a158e947.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: 69px;
+    transition: all 400ms;
+    top: -1px;
+    bottom: -02px;
+}
+.btn.p:hover::after{
+    top: -45px;
+}
+.btn.p::before{
+  content: "Você está aqui";
+  color:#fffdfd;
+  top: 57px;
+  background-image: url(https://i.pinimg.com/1200x/fe/76/29/fe7629aa2eacacf4c2459e26dd5446aa.jpg);
+  background-size: 189px;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+.btn.p:hover::before{
+    top: 0px;
+}
+
+/*INSTAGRAM*/
+.btn.i::after,
+.btn.i::before{
+    content: "";
+    background-image: url(https://i.pinimg.com/736x/7f/72/f4/7f72f475fc844a62582d147722e4bf95.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: 99px;
+    transition: all 400ms;
+    top: -2px;
+    bottom: -02px;
+    margin-left: -27px;
+}
+.btn.i:hover::after{
+    top: -36px;
+}
+.btn.i::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.i:hover::before {
+  left: 0;
+}
+.btn.i:hover {
+  color: white;
+}
+
+/*LOGO*/
+.btn.l::after,
+.btn.l::before{
+    content: "";
+    background-image: url(https://i.pinimg.com/1200x/9b/d5/c8/9bd5c8e7f275ef949be9680daa30e4b6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: 63px;
+    transition: all 400ms;
+    top: -1px;
+    bottom: -02px;
+    margin-left: -27px;
+    transition: all 400ms;
+}
+.btn.l:hover::after{
+    top: -36px;
+}
+.btn.l::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.l:hover::before {
+  left: 0;
+}
+.btn.l:hover {
+  color: white;
+}
+
+/*COMISSÃO*/
+.btn.c::after,
+.btn.c::before{
+    content: "";
+    background-image: url(https://i.pinimg.com/736x/69/6a/62/696a627ddf276a123990320d2b216855.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: 99px;
+    top: -1px;
+    bottom: -02px;
+    margin-left: -25px;
+}
+.btn.c:hover::after{
+    top: 0px;
+}
+.btn.c::before {
+  content: "Indisponivel";
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: #8E4848;
+  z-index: -1;
+  transition: left 0.4s ease;
+}
+.btn.c:hover::before {
+  left: 0;
+}
+.btn.c:hover {
+  color: white;
+}
+}
