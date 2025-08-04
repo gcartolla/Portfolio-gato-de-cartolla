@@ -1,0 +1,136 @@
+@media (min-width: 701px) and (max-width: 1024px) {
+  /*PINTEREST*/
+  .btn.p::after,
+  .btn.p::before{
+    content: "Pinterest";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background-color: #FF9691;
+    line-height: 2.2;
+    transition: all 400ms;
+    top: -10px;
+    text-shadow: 0px 10px 10px #d47d7d71;
+  }
+
+  .btn.p:hover::after{
+      top: -45px;
+  }
+  .btn.p::before{
+    content: "Você está aqui";
+    color:#fffdfd;
+    font-size: 13px;
+    top: 0px;
+    background-image: url(https://i.pinimg.com/1200x/fe/76/29/fe7629aa2eacacf4c2459e26dd5446aa.jpg);
+    background-size: 189px;
+    background-position: center;
+    background-repeat: no-repeat;  
+  }
+  .btn.p:hover::before{
+      top: -2px;
+  }
+
+  /*INSTAGRAM*/
+  .btn.i::after,
+  .btn.i::before{
+      content: "Instagram";
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      line-height: 2.2;
+      transition: all 400ms;
+      top: -11px;
+  }
+  .btn.i:hover::after{
+      top: -36px;
+  }
+  .btn.i::before {
+    content: "Indisponivel";
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 204px;
+    top: -7px; 
+    left: -100%;
+    background: #8E4848;
+    z-index: -1;
+    transition: left 0.4s ease;
+    font-size: 16px;
+  }
+  .btn.i:hover::before {
+    left: 0;
+  }
+  .btn.i:hover {
+    color: white;
+  }
+
+  /*LOGO*/
+  .btn.l::after,
+  .btn.l::before{
+      content: "Logos";
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      line-height: 2.2;
+      transition: all 400ms;
+      top: -11px;
+  }
+  .btn.l:hover::after{
+      top: -36px;
+  }
+  .btn.l::before {
+    content: "Indisponivel";
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 204px;
+    top: -7px; 
+    left: -100%;
+    background: #8E4848;
+    z-index: -1;
+    transition: left 0.4s ease;
+    font-size: 16px;
+  }
+  .btn.l:hover::before {
+    left: 0;
+  }
+  .btn.l:hover {
+    color: white;
+  }
+
+  /*COMISSÃO*/
+  .btn.c::after,
+  .btn.c::before{
+      content: "Comissões ";
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      line-height: 2.2;
+      transition: all 400ms;
+      top: -10px;
+      font-size: 19px;
+  }
+  .btn.c:hover::after{
+      top: -36px;
+  }
+  .btn.c::before {
+    content: "Indisponivel";
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 204px;
+    top: -7px; 
+    left: -100%;
+    background: #8E4848;
+    z-index: -1;
+    transition: left 0.4s ease;
+    font-size: 16px;
+  }
+  .btn.c:hover::before {
+    left: 0;
+  }
+  .btn.c:hover {
+    color: white;
+  }
+}

@@ -1,73 +1,71 @@
-@media (min-width: 1025px){
+@media (min-width: 708px) and (max-width: 1024px) {
     
 body{
     background-color: #ffaedf;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_bar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 127px;
 }
 
 .logo img{
-    border-radius: 60px;
+    position: fixed;
     height: 100px;
-    margin-top: 14px;
-    margin-left: 120px;
+    width: 100px;
     box-shadow: 0px 04px 04px #d47d7d71;
+    border-radius: 60px;
+    margin-left: 10px;
+} 
+
+.titles .title1, .title2{
+    color: hsl(0, 0%, 100%);
+    position: fixed;
+    font-size: 25px;
+    text-shadow: 0px 10px 10px #d47d7d71;
 }
 
 .title1{
-    color: #ffffff;
-    text-align: right;
-    position: fixed;
-    top: 28px;
-    left: -80px;
-    width: 534px;
-    height: 100px;
-    font-size: 25px;
-    text-shadow: 0px 10px 10px #d47d7d71;
+    top:-28px;
 }
 
 .title2{
-    color: #ffffff;
-    text-align: right;
-    position: fixed;
-    top: 80px;
-    left: -80px;
-    width: 534px;
-    height: 100px;
-    font-size: 25px;
-    text-shadow: 0px 10px 10px #d47d7d71;
+    top: 20px;
+
 }
 
 .sidebar_left{
     background-color: #FDDADA;
-    border-radius: 8px;
+    max-width: 55%;
+    height: 40px;
     position: fixed;
-    top: 186px;
-    left: 120px;
-    bottom: 130px;
-    padding: 12px ;
+    right: 3px;
+    top: 10px;
     box-shadow: 0px 04px 04px #d47d7d71;
-    width: 300px;
+    border-radius: 8px;
 }
 
-li {
-    list-style-type: none;
-}
-
-.sidebar nav ul li {
-    padding-top: 30px;
-    padding-left: 20px;
-}
-
-.btn {
-    display: inline-block;
+.botoes ul, .btn, li{ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;  
     text-decoration: none;
-    width: 160px;
-    height: 42px;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0px 04px 04px #d47d7d71;
+}
+
+.btn { 
     background: transparent;
-    font-weight: 600;
+    min-width: 82px;
+    height: 22px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 04px 04px #d47d7d71;
 }
 
 a{
@@ -75,13 +73,17 @@ a{
     font-size: 20px;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
 .container h1{
-    color:#ffff;
     background-color: #FDDADA; position: fixed;
     text-align: center;
-    min-width: 690px;
+    min-width: 668px;
     margin: 0px;
-    top: 10px;
     border-radius: 8px 8px 0px 0px;
     text-shadow: 0px 10px 10px #d47d7d71;
 }
@@ -90,35 +92,15 @@ a{
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #FDDADA;
-    border-radius: 8px;
-    position: fixed;
-    top: 10px;
-    left: 550px;
-    bottom: 130px;
-    padding: 12px ;
-    max-width: 850px;
-    min-width: 320px;
-    height: 667px;
-    overflow: auto;
-       box-shadow: -5px -5px 30px 5px  #d47d7d71 
-}
-
-.container_title{
-    border-radius:  8px 8px 0 0 ;
-    position: fixed;
-    background-color: #FDDADA;
-    width: 874px;
-    height: 60px;
-    left: 550px;
-    top: 10px;
     color: #ffff;
-    text-align: center;
-}
-
-.container_title h1{
-    margin-top: 10px;
-    text-shadow: 0px 10px 10px #d47d7d71;
+    background-color: #FDDADA;
+    position: fixed;
+    padding: 0px;
+    min-width: 768px;
+    height: 570px;
+    overflow: auto;
+    border-radius: 8px;
+    box-shadow: -5px -5px 30px 5px  #d47d7d71;
 }
 
 .scroll{
@@ -128,9 +110,9 @@ a{
 .post{
     float: left;
     width: 659px;
-    padding: 10px;
+    padding: 0px;
     background-color:#8E4848;
-    margin: 0px 85px 0px;
+    margin: 0px 0px 0px;
     border-radius: 20px;
 }
 
@@ -156,7 +138,7 @@ a{
 .f a{
     color: #8E4848;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 0px;
     margin-bottom: 10px;
     margin-left: 30px;
     margin-right: 272px;
@@ -166,9 +148,9 @@ a{
 }
 
 .post .pin:target{
-    width: 27%;
-    height: 580px;
-    padding-left: 40px;
+    width: 360px;
+    height: 540px;
+    padding: 40px;
     padding-top: 20px;
 }
 
@@ -178,12 +160,12 @@ a{
 
 .pin:target{
     position: fixed;
-    top: 5px;
-    left: 50%;
+    top:56px;
+    left: 26%;
     margin: 10px;
     background-color: #8E4848;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 05px #2002025c;
+    box-shadow: 0px 0px 9px 05px #6004045c;
 }
 
 .post .pin:target a img{
@@ -203,6 +185,3 @@ background-color: rgb(241, 171, 225);
 border-radius: 30px;
 }
 }
-
-
-

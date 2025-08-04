@@ -1,0 +1,143 @@
+@media screen and (max-width: 767px){
+/*PINTEREST*/
+.btn.p::after,
+.btn.p::before{
+    content: "";
+    background-image: url(https://i.pinimg.com/736x/d6/43/f7/d643f770295e8eeb6d7a52f1a158e947.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: 69px;
+    transition: 00ms;
+    top: -0px;
+    bottom: -02px;
+}
+.btn.p:hover::after{
+    top: 0px;
+}
+.btn.p::before{
+  content: "";
+  color:#fffdfd;
+  top: 0px;
+  background-image: url(https://i.pinimg.com/1200x/fe/76/29/fe7629aa2eacacf4c2459e26dd5446aa.jpg);
+  background-size: 189px;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+.btn.p:hover::before{
+    top: 0px;
+}
+
+/*instagram*/
+.btn.i::after,
+.btn.i::before {
+    
+  position: absolute;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+  transition: all 400ms;
+  top: 0;
+  content: "";
+  background-image: url(https://i.pinimg.com/736x/7f/72/f4/7f72f475fc844a62582d147722e4bf95.jpg);
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: 99px;
+  bottom: -02px;
+}
+
+.btn.btn.i:hover::after {
+    top: -210px;
+    
+}
+
+.btn.i::before {
+    content: "🔒";
+    top: 86px;
+    text-align: center;
+}
+
+.btn.i:hover::before {
+    top: 0;
+    
+}
+
+
+
+/*logo*/
+.btn.l::after,
+.btn.l::before {
+    
+  position: absolute;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+  transition: all 400ms;
+  top: 0;
+  content: "";
+  background-image: url(https://i.pinimg.com/1200x/9b/d5/c8/9bd5c8e7f275ef949be9680daa30e4b6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: 59px;
+  bottom: -02px;
+}
+
+.btn.btn.l:hover::after {
+    top: -140px;
+    
+}
+
+.btn.l::before {
+    content: "🔒";
+    top: 1px;
+    text-align: center;
+}
+
+.btn.logo:hover::before {
+    top: 0;
+    
+}
+
+
+/*COMISSÃO*/
+.btn.c::after,
+.btn.c::before {
+    
+  position: absolute;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+  transition: all 400ms;
+  top: 0;
+  content: "";
+  background-image: url(https://i.pinimg.com/736x/69/6a/62/696a627ddf276a123990320d2b216855.jpg);
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: 99px;
+  bottom: -02px;
+}
+
+.btn.btn.c:hover::after {
+    top: -210px;
+    
+}
+
+.btn.c::before {
+    content: "🔒";
+    top: 86px;
+    text-align: center;
+}
+
+.btn.c:hover::before {
+    top: 0;
+    
+}
+}
