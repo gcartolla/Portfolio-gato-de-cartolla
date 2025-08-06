@@ -4,6 +4,13 @@ body{
     background-color: #ffaedf;
 }
 
+.nav_bar{
+    display: grid;
+    grid-template-columns: 452px;
+    grid-template-rows: 50px;
+    
+}
+
 .logo img{
     border-radius: 60px;
     height: 100px;
